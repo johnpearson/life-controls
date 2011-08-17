@@ -41,22 +41,13 @@ h1 {
 
 /* Header Styling */
 
-div.header {
+.header {
 	background-image: url('header.png');
 	background-repeat: repeat-x;
-}
-
-table.header_table {
-	width: 1275px;
-}
-
-table.header_table tr td {
 	padding-left: 15px;
-	width: 33%;
-	vertical-align: middle;
 }
 
-table.header_table tr td ul li {
+.header ul {
 	list-style: none;
 	float: right;
 	display: inline;
@@ -65,30 +56,41 @@ table.header_table tr td ul li {
 
 /* Welcome/Home Page Styling */
 
-table.main {
-	width: 1275px;
-	padding-left: 29px;
+#welcome {
+	width: 1000px;
+	float: left;
+	padding-left: 35px;
 }
 
-table.main tr td {
-	width: 100%;
-	padding-right: 18px;
-	text-align: top;
-}
-
-table.main tr td ul li {
-	list-style: none;
-}
-
-table.main a {
-	text-decoration: underline;
+#welcome a {
 	color: gray;
 }
 
+/* About Page Styling */
+
+#about {
+	width: 1000px;
+	float: left;
+	padding-left: 35px;
+}
+
+/* Tour Page Styling */
+
+#tour {
+	width: 1000px;
+	float: left;
+	padding-left: 35px;
+}
+
+
 /* Sidebar Styling */
 
-div.sidebar {
+#sidebar {
 	float: right;
-	position: relative;
+}
+
+#sidebar ul li {
+	list-style: none;
+	padding-right: 28px;
 }
 

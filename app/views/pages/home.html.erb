@@ -1,35 +1,20 @@
-<container id="main_page">
-<table class="main">
-	<tr>
-		<td>
-			<h1>Ready to Get Control?</h1>
-			<p>Life-controls is a web application that will help you get control by sorting all of your life
-			   events - birthdays, anniversaries, holidays, vacations, etc. - into a set of action lists so 
-			   that you know what the next steps are instead of thinking about all the details all of the 
-			   time or completely forgetting the events all together.</p>
+<div id="welcome">
+	<h1>Ready to Get Control?</h1>
+	<p>Life-controls is a web application that will help you get control by sorting all of your life
+	   events - birthdays, anniversaries, holidays, vacations, etc. - into a set of action lists so 
+	   that you know what the next steps are instead of thinking about all the details all of the 
+	   time or completely forgetting the events all together.</p>
 
-			<h1>Get Started Today</h1>
-			<p>Click on the <%= link_to "Sign Up", new_user_registration_path %> link to get started.  You
-			   will have a 30-day trial automatically, so you can start getting control right away.  Just
-			   input your events, some details, and sit back while we take care of the heavy lifting.  Life-
-			   controls will sort your events by priority and produce an action list for the event.  Try
-			   it for free!
+	<h1>Get Started Today</h1>
+	<p>Click on the <%= link_to "Sign Up", new_user_registration_path %> link to get started.  You
+	   will have a 30-day trial automatically, so you can start getting control right away.  Just
+	   input your events, some details, and sit back while we take care of the heavy lifting.  
+	   Life-controls will sort your events by priority and produce an action list for the event.  Try
+	   it for free!</p>
 	
-			<h1>Have Questions?</h1>
-			<p>You can email me at <%= link_to "jpearson556@gmail.com", "#" %> or call (406)555-5555.  You
-			   can also check out our easy-to-read FAQ.
-		</td>
-		<td>
-		</td>
-		<td>
-			<%= render 'shared/sidebar' %>
-		</td>
-	</tr>
-	<tr>
-		<td>
-		<%= image_tag('control_circle.png', :alt => "Control Circle") %>
-		</td>
-	</tr>
-</table>
+	<h1>Have Questions?</h1>
+	<p>You can email me at <%= link_to "jpearson556@gmail.com", "#" %> or call (406)555-5555.  You
+	   can also check out our easy-to-read FAQ.</p>
 	
-</container>
+	<%= image_tag('control_circle.png', :alt => "Control Circle") %>
+</div>

@@ -8,29 +8,42 @@ module ApplicationHelper
       "#{base_title} - #{@title}"
     end
   end
-  
-  # Link images for sidebar links
-  def tour_image
-    tour_image = image_tag("tour.png", :alt => "Life-controls Tour")
+   
+   # Link images for sidebar links
+   def tour_image
+     tour_image = image_tag("tour.png", :alt => "Life-controls Tour")
+   end
+    
+   def about_image
+     about_image = image_tag("about.png", :alt => "About Us")
+   end
+    
+   def faq_image
+     faq_image = image_tag("faq.png", :alt => "FAQ")
+   end
+    
+   def contact_image
+     contact_image = image_tag("contact.png", :alt => "Contact")
+   end
+    
+   def testimonials_image
+     testimonials_image = image_tag("testimonials.png", :alt => "Testimonials")
+   end
+    
+   def blog_image
+     blog_image = image_tag("blog.png", :alt => "Blog")
+   end
+    
+   def home_image
+     home_image = image_tag("home.png", :alt => "Home")
+   end
+    
+   def signin_image
+     signin_image = image_tag("sign_in.png", :alt => "Sign In")
+   end 
+   
+   def signup_image
+     signup_image = image_tag("sign_up.png", :alt => "Sign Up")
+   end
   end
   
-  def about_image
-    about_image = image_tag("about.png", :alt => "About Us")
-  end
-  
-  def faq_image
-    faq_image = image_tag("faq.png", :alt => "FAQ")
-  end
-  
-  def contact_image
-    contact_image = image_tag("contact.png", :alt => "Contact")
-  end
-  
-  def testimonials_image
-    testimonials_image = image_tag("testimonials.png", :alt => "Testimonials")
-  end
-  
-  def blog_image
-    blog_image = image_tag("blog.png", :alt => "Blog")
-  end
-end

@@ -1,17 +1,7 @@
 <div class="header">
-	<table class="header_table">
-		<tr>
-			<td>
-				<%= image_tag('logo-small.png', :alt => "Logo") %>
-			</td>
-			<td>
-			</td>
-			<td>
-				<ul>
-					<li><%= link_to "Sign In", new_user_session_path %></li>
-					<li><%= link_to "Sign Up", new_user_registration_path %></li>
-				</ul>
-			</td>
-		</tr>
-	</table>
+	<%= image_tag('logo-small.png', :alt => "Logo") %>
+	<ul>
+		<li><%= link_to signin_image, new_user_session_path %></li>
+		<li><%= link_to signup_image, new_user_registration_path %></li>
+	</ul>
 </div>
