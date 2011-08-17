@@ -28,6 +28,17 @@ a {
 	color: white;
 }
 
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 125%;
+	padding-top: 15px;
+}
+
 /* Header Styling */
 
 div.header {
@@ -50,5 +61,42 @@ table.header_table tr td ul li {
 	float: right;
 	display: inline;
 	padding-right: 20px;
+}
+
+/* Welcome/Home Page Styling */
+
+div.home_page {
+	width: 1020px;
+	height: 400px;
+	background-image: url('welcome_table.png');
+	background-repeat: no-repeat;
+}
+
+table.welcome {
+	width: 1275px;
+	padding-right: 6px;
+	padding-left: 29px;
+}
+
+table.welcome tr td {
+	width: 100%;
+	padding-right: 35px;
+	text-align: top;
+}
+
+table.welcome tr td ul li {
+	list-style: none;
+}
+
+table.welcome a {
+	text-decoration: underline;
+	color: gray;
+}
+
+/* Sidebar Styling */
+
+div.sidebar {
+	float: right;
+	position: relative;
 }
 
