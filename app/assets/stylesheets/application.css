@@ -65,29 +65,22 @@ table.header_table tr td ul li {
 
 /* Welcome/Home Page Styling */
 
-div.home_page {
-	width: 1020px;
-	height: 400px;
-	background-image: url('welcome_table.png');
-	background-repeat: no-repeat;
-}
-
-table.welcome {
+table.main {
 	width: 1275px;
 	padding-left: 29px;
 }
 
-table.welcome tr td {
+table.main tr td {
 	width: 100%;
 	padding-right: 18px;
 	text-align: top;
 }
 
-table.welcome tr td ul li {
+table.main tr td ul li {
 	list-style: none;
 }
 
-table.welcome a {
+table.main a {
 	text-decoration: underline;
 	color: gray;
 }
