@@ -18,18 +18,15 @@ group :assets do
   	gem 'uglifier'
 end
 
-group :development do
-	gem 'rspec-rails'
-	gem 'faker', '0.3.1'
-end
-
-
-group :test do
+group :development, :test do
   	# Pretty printed test output
   	gem 'turn', :require => false
 	gem 'rspec-rails'
 	gem 'webrat', '0.7.1'
-	gem 'spork', '0.9.0.rc4'
 	gem 'factory_girl_rails', '1.0'
 	gem 'cucumber'
+	gem 'faker', '0.3.1'
+	gem 'rb-fsevent'
+	gem 'guard-rspec'
+	gem 'growl'
 end
