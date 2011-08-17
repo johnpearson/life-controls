@@ -74,13 +74,12 @@ div.home_page {
 
 table.welcome {
 	width: 1275px;
-	padding-right: 6px;
 	padding-left: 29px;
 }
 
 table.welcome tr td {
 	width: 100%;
-	padding-right: 35px;
+	padding-right: 18px;
 	text-align: top;
 }
 

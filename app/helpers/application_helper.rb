@@ -25,4 +25,12 @@ module ApplicationHelper
   def contact_image
     contact_image = image_tag("contact.png", :alt => "Contact")
   end
+  
+  def testimonials_image
+    testimonials_image = image_tag("testimonials.png", :alt => "Testimonials")
+  end
+  
+  def blog_image
+    blog_image = image_tag("blog.png", :alt => "Blog")
+  end
 end
