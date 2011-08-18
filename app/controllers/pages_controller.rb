@@ -10,4 +10,19 @@ class PagesController < ApplicationController
     @title = "About Us"
   end
 
+  def faq
+    @title = "FAQ"
+  end
+  
+  def contact
+    @title = "Contact"
+  end
+  
+  def testimonials
+    @title = "Testimonials"
+  end
+  
+  def blog
+    @title = "Blog"
+  end
 end

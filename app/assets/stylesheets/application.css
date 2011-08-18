@@ -56,13 +56,13 @@ h1 {
 
 /* Welcome/Home Page Styling */
 
-#welcome {
+#home {
 	width: 1000px;
 	float: left;
 	padding-left: 35px;
 }
 
-#welcome a {
+#home a {
 	color: gray;
 }
 
