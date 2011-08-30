@@ -19,24 +19,23 @@ module ApplicationHelper
    end
     
    def faq_image
-     faq_image = image_tag("faq.png", :mouseover => "faq_hover.png", :alt => "FAQ")
+     faq_image = image_tag("faq.png", :mouseover => "faq_hover.png",:alt => "FAQ")
    end
     
    def contact_image
-     contact_image = image_tag("contact.png", :mouseover => "contact_hover.png", :alt => "Contact")
+     contact_image = image_tag("contact.png", :mouseover => "contact_hover.png",:alt => "Contact")
    end
     
    def testimonials_image
-     testimonials_image = image_tag("testimonials.png", :mouseover => "testimonials_hover.png", 
-                                                        :alt => "Testimonials")
+     testimonials_image = image_tag("testimonials.png", :mouseover => "testimonials_hover.png",:alt => "Testimonials")
    end
     
    def blog_image
-     blog_image = image_tag("blog.png", :mouseover => "blog_hover.png", :alt => "Blog")
+     blog_image = image_tag("blog.png", :mouseover => "blog_hover.png",:alt => "Blog")
    end
     
    def home_image
-     home_image = image_tag("home.png", :mouseover => "home_hover.png", :alt => "Home")
+     home_image = image_tag("home.png", :mouseover => "home_hover.png",:alt => "Home")
    end
     
    def signin_image

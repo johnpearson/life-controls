@@ -1,7 +1,7 @@
 <div class="header">
 	<%= image_tag('logo-small.png', :alt => "Logo") %>
 	<ul>
-		<li><%= link_to signin_image, new_user_session_path %></li>
+		<li id="signinform"><%= link_to signin_image, new_user_session_path, :remote => true %></li>
 		<li><%= link_to signup_image, new_user_registration_path %></li>
 	</ul>
 </div>
